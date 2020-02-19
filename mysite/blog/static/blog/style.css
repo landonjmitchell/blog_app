@@ -1,0 +1,109 @@
+body {
+        font-family: "Roboto", sans-serif;
+        font-size: 18px;
+        background-color: #fdfdfd;
+    }
+    
+    nav {
+        background-color: #29243C;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    nav a, a:hover {
+        color: #DDD;
+    }
+
+    .masthead {
+        min-height: 500px;
+        background-color: green;
+        /* background-image: url(../images/thought-catalog-505eectW54k-unsplash.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat; */
+    }
+
+    .btn {
+        color: white;
+        background-color: #00cac5;
+        font-size: 14px;
+    }
+
+    .head_text {
+        color: white;
+    }
+    
+    .card {
+        box-shadow: 0 16px 48px #E3E7EB;
+        font-size: 14px;
+        color: #444
+
+    }
+
+    .card h2 {
+        margin-block-end: 5px;
+    }
+
+    .card h2 a {
+        color: #525252;
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .card .post-date {
+        font-size: 13px;
+        color: grey;
+        margin-bottom: 10px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .view-more {
+        color: #00cac5;
+        font-size: 14px;
+    }
+
+    .post-content {
+        margin-bottom: 20px;
+    }
+
+    .recent-posts {
+        padding: 20px;
+        margin-bottom: 18px;
+        border: 1px solid lightgrey;
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    .recent-posts ul {
+        list-style-type: none;  
+        padding-inline-start: 0px;
+        margin-top: 10px;
+    }
+
+    .recent-posts li {
+        border-top: 1px solid lightgrey;
+        margin: 0px;
+        padding: 10px;
+    }
+
+    .recent-posts a {
+        color: #222;
+    }
+
+    .recent-posts .recent-post-date {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    .recent-posts .recent-post-title {
+        font-size: 17px;
+        color: #525252;
+        margin-bottom: 5px;
+    }
+
+    footer {
+        font-size: 13px;
+        background-color: #29243C;
+        color: #CCC;
+        padding: 40px;
+        margin-top: 20px;
+    }
