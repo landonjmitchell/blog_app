@@ -1,119 +1,124 @@
+/* Base */
+
 body {
-        font-family: "Roboto", sans-serif;
-        font-size: 18px;
-        background-color: #fdfdfd;
-    }
-    
-    nav {
-        background-color: #29243C;
-        font-family: 'Raleway', sans-serif;
-    }
+	font-family: "Roboto", sans-serif;
+	font-size: 18px;
+	background-color: #fdfdfd;
+}
 
-    nav a, a:hover {
-        color: #DDD
-    }
+nav {
+	background-color: #29243C;
+	font-family: 'Raleway', sans-serif;
+}
 
-    .masthead {
-        min-height: 250px;
-        background-image: url(../images/thought-catalog-505eectW54k-unsplash.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }
+nav a,
+a:hover {
+    color: #DDD
+}
 
-    .masthead h1, .masthead p {
-        margin-left: 30px;
-        font-family: 'Raleway', sans-serif;
-        color: white;
-        text-shadow: 0px 0px 10px black;
-    }
+.btn {
+	color: white;
+	background-color: #00cac5;
+	font-size: 14px;
+}
 
-    .container {
-        margin-top: 40px;
-    }
+/* List View */
 
-    .btn {
-        color: white;
-        background-color: #00cac5;
-        font-size: 14px;
-    }
+.masthead {
+	min-height: 250px;
+	background-image: url(../images/thought-catalog-505eectW54k-unsplash.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
 
-    .head_text {
-        color: white;
-    }
-    
-    .card {
-        box-shadow: 0 16px 48px #E3E7EB;
-        font-size: 14px;
-        color: #444
+.masthead h1,
+.masthead p {
+	margin-left: 30px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+	text-shadow: 0px 0px 10px black;
+}
 
-    }
+.container {
+	margin-top: 40px;
+}
 
-    .card h2 {
-        margin-block-end: 5px;
-    }
+.card {
+	box-shadow: 0 16px 48px #E3E7EB;
+	font-size: 14px;
+	color: #444
+}
 
-    .card h2 a {
-        color: #525252;
-        font-size: 30px;
-        font-family: 'Raleway', sans-serif;
-    }
+.card h2 {
+	margin-block-end: 5px;
+}
 
-    .card .post-date {
-        font-size: 13px;
-        color: grey;
-        margin-bottom: 10px;
-        font-family: 'Raleway', sans-serif;
-    }
+.card h2 a {
+	color: #525252;
+	font-size: 30px;
+	font-family: 'Raleway', sans-serif;
+}
 
-    .view-more {
-        color: #00cac5;
-        font-size: 14px;
-    }
+.card .post-date {
+	font-size: 13px;
+	color: grey;
+	margin-bottom: 10px;
+	font-family: 'Raleway', sans-serif;
+}
 
-    .post-content {
-        margin-bottom: 20px;
-    }
+.view-more {
+	color: #00cac5;
+	font-size: 14px;
+}
 
-    .recent-posts {
-        padding: 20px;
-        margin-bottom: 18px;
-        border: 1px solid lightgrey;
-        font-family: 'Raleway', sans-serif;
-        background-color: white;
-    }
+.post-content {
+	margin-bottom: 20px;
+}
 
-    .recent-posts ul {
-        list-style-type: none;  
-        padding-inline-start: 0px;
-        margin-top: 10px;
-    }
+/* Recent Posts */
 
-    .recent-posts li {
-        border-top: 1px solid lightgrey;
-        margin: 0px;
-        padding: 10px;
-    }
+.recent-posts {
+	padding: 20px;
+	margin-bottom: 18px;
+	border: 1px solid lightgrey;
+	font-family: 'Raleway', sans-serif;
+	background-color: white;
+}
 
-    .recent-posts a {
-        color: #222;
-    }
+.recent-posts ul {
+	list-style-type: none;
+	padding-inline-start: 0px;
+	margin-top: 10px;
+}
 
-    .recent-posts .recent-post-date {
-        font-size: 12px;
-        margin-bottom: 5px;
-    }
+.recent-posts li {
+	border-top: 1px solid lightgrey;
+	margin: 0px;
+	padding: 10px;
+}
 
-    .recent-posts .recent-post-title {
-        font-size: 17px;
-        color: #525252;
-        margin-bottom: 5px;
-    }
+.recent-posts a {
+	color: #222;
+}
 
-    footer {
-        font-size: 13px;
-        background-color: #29243C;
-        color: #CCC;
-        padding: 40px;
-        margin-top: 20px;
-    }
+.recent-posts .recent-post-date {
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+.recent-posts .recent-post-title {
+	font-size: 17px;
+	color: #525252;
+	margin-bottom: 5px;
+}
+
+/* Footer  */
+
+footer {
+	font-size: 13px;
+	background-color: #29243C;
+	color: #CCC;
+	padding: 40px;
+	margin-top: 20px;
+}

@@ -4,23 +4,19 @@
 
 {% block content %}
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 card mr-4 mb-3">
-                <form method="post">
-                  {{ form | crispy }}
-                  {% csrf_token %}
-                  <button type="submit" class="btn  btn-lg">Submit</button>
-                </form>
-            </div>
-
-        {% block recent_posts %} {% include 'recent_posts.html' %} {% endblock recent_posts %}
-
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 card mr-4 mb-3">
+            <form method="post">
+                {{ form | crispy }}
+                {% csrf_token %}
+                <button type="submit" class="btn  btn-lg">Submit</button>
+            </form>
         </div>
+
+    {% block recent_posts %} {% include 'recent_posts.html' %} {% endblock recent_posts %}
+
     </div>
-
-    
-
-
+</div>
 
 {% endblock %}
