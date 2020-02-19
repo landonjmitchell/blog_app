@@ -1,0 +1,21 @@
+{% block recent_posts %}
+
+<style>
+    .card {
+        box-shadow: 0 16px 48px #E3E7EB;
+    }
+</style>
+
+<div class="col-md-3 float-right recent-posts">
+    <h4>Recent Posts:</h4>
+    <ul>
+        {% for post in recent_posts %}
+        <li class="recent-post">
+            <p class="recent-post-title"><a href="{% url 'post_detail' post.slug  %}"> {{ post.title }}</a></p>
+            <p class="recent-post-date"> {{ post.created_on }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+{% endblock recent_posts %}
