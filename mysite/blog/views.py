@@ -9,7 +9,7 @@ from django.utils import timezone
 def post_detail(request, slug):
     post = get_object_or_404(Post, slug=slug)
     recent_posts = Post.objects.filter(
-        created_on__lte=timezone.now()).order_by('-created_on')[:7]
+        created_on__lte=timezone.now()).order_by('-created_on')[:5]
     return render(request, 'post_detail.html', {'post': post, 'recent_posts':recent_posts})
 
 def post_list(request):
@@ -22,7 +22,7 @@ def post_list(request):
 
 def post_new(request):
     recent_posts = Post.objects.filter(
-        created_on__lte=timezone.now()).order_by('-created_on')[:7]
+        created_on__lte=timezone.now()).order_by('-created_on')[:5]
 
     if request.method == "POST":
         form = PostForm(request.POST)
@@ -39,7 +39,7 @@ def post_new(request):
 
 def post_edit(request, slug):
     recent_posts = Post.objects.filter(
-    created_on__lte=timezone.now()).order_by('-created_on')[:7]
+    created_on__lte=timezone.now()).order_by('-created_on')[:5]
 
     post = get_object_or_404(Post, slug=slug)
     if request.method == "POST":
