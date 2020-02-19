@@ -25,6 +25,10 @@ A simple Django blogging app with public post creation/editing
 ## Manually Tested Functionality:
 
 * Create new post
-* Validate form fields
+* Validate form fields:
+  * All fields entered
+  * Title is unique
+  * Long titles truncated
 * Edit post title and content
+* Screen size responsive display
 
