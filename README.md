@@ -1,4 +1,4 @@
-# blog_app
+# Django Blog App
 A simple Django blogging app with public post creation/editing
 
 ## Requirements:
@@ -11,6 +11,8 @@ A simple Django blogging app with public post creation/editing
 ## Features:
 
 * Create new posts with Title/Content
+* View list of all posts
+* View complete post details
 * Edit current posts
 * Most recent post featured in sidebar
 * No auth/permissions required to post/edit
