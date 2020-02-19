@@ -48,7 +48,7 @@ def post_edit(request, slug):
             post = form.save(commit=False)
             post.slug = slugify(post.title, allow_unicode=True)
         post.save()
-        return redirect('post_detail', slug=slug)
+        return redirect('post_detail', slug=post.slug)
     else:
         form = PostForm(instance=post)
     return render(request, 'post_edit.html', {'form': form, 'recent_posts': recent_posts})
